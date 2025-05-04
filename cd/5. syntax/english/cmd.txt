@@ -1,0 +1,10 @@
+bison -d parser.y          
+flex lex.l                  
+gcc parser.tab.c lex.yy.c -o english_parser.exe
+english_parser.exe
+
+
+inp:
+A happy dogs eats food! [correct]
+
+Happy dog eats fish [wrong,missing article]

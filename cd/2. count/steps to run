@@ -1,0 +1,3 @@
+flex lexer.l
+gcc lex.yy.c -o count.exe
+.\count.exe

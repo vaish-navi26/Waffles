@@ -1,0 +1,12 @@
+switch (x) {
+case 1: y = 10; break;
+case 2: y = 20; break;
+default: y = 0; break;
+}
+
+cmds:
+
+bison -d parser.y
+flex lexical.l
+gcc parser.tab.c lex.yy.c -o switch.exe
+./switch.exe 

@@ -1,0 +1,5 @@
+int main() {
+    float x = 12;
+    char* name = "Hello;
+    @
+}

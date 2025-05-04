@@ -1,0 +1,7 @@
+flex lex.l
+bison -d parser.y
+gcc lex.yy.c parser.tab.c -o ifelse_parser
+./ifelse_parser
+
+if (x < 10) { x = x + 1; } else { x = x - 1; }
+if (x > 5) { x = x + 1; y = y * 2; } else { x = x - 1; z = 0; }

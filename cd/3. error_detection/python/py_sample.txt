@@ -1,0 +1,4 @@
+def greet():
+    print('Hello
+    return 42
+    $weird_token

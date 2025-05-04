@@ -1,0 +1,7 @@
+inp:
+SELECT name, age FROM users;
+
+bison -d parser.y            
+flex lex.l                   
+gcc parser.tab.c lex.yy.c -o sql_parser.exe 
+sql_parser.exe              

@@ -1,0 +1,8 @@
+while (i < 5) { x = 10; }
+
+cmds:
+
+bison -d parser.y     
+flex lexical.l         
+gcc parser.tab.c lex.yy.c -o error.exe 
+./error.exe            

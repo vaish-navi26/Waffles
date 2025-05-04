@@ -1,0 +1,7 @@
+The quick brown fox jumps over the lazy dog. This simple sentence contains
+all parts of speech we want to analyze. Beautiful flowers bloom wonderfully
+in spring, while cold winds blow fiercely in winter.
+
+She loves reading interesting books quietly in her cozy room. They happily
+played with their new toys yesterday. Our teacher explained the difficult
+concept very clearly.

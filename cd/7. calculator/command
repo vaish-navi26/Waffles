@@ -1,0 +1,4 @@
+flex ass7.l     
+bison -d ass7.y
+gcc -o ass7 ass7.tab.c lex.yy.c 
+./ass7         
